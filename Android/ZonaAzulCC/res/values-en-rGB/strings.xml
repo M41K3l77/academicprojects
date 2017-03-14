@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ZonAzul CC</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="toast_searching">Searching</string>
+    <string name="toast_refreshing">Refreshing</string>
+    <string name="action_share">Share</string>
+    <string name="Mapa">Map</string>
+    <string name="Calles">Streets</string>
+    <string name="Ticket">Ticket</string>
+    <string name="Informacion">Information</string>
+    <string name="Cerca">Closer</string>
+    <string name="AlarmButton">Alarm</string>
+    <string name="horario">Monday to Friday. From 10h to 14h and 17h to 20h</string>
+    <string name="precio">0,30 € (MIN 40 m)  /  1,20 € (MAX 2 h)</string>
+
+</resources>

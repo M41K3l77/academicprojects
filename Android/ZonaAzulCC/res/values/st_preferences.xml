@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="pref_mapa_entradas">
+        <item>Normal</item>
+        <item>Sattelite</item>
+        <item>Hybrid</item>
+    </string-array>
+    <string-array name="pref_mapa_valores">
+        <item>MAP_TYPE_NORMAL</item>
+        <item>MAP_TYPE_SATELLITE</item>
+        <item>MAP_TYPE_HYBRID</item>
+    </string-array>
+
+    <string name="pref_mapa_default">MAP_TYPE_NORMAL</string>
+
+    <string-array name="pref_alarma_entradas">
+        <item>2 min</item>
+        <item>5 min</item>
+        <item>10 min</item>
+    </string-array>
+    <string-array name="pref_alarma_valores">
+        <item>2</item>
+        <item>5</item>
+        <item>10</item>
+    </string-array>
+
+    <string name="pref_alarma_default">5</string>
+
+    <string-array name="pref_tono_entradas">
+        <item>Bells</item>
+        <item>SMS</item>
+        <item>Funny</item>
+        <item>Elegant</item>
+    </string-array>
+    <string-array name="pref_tono_valores">
+        <item>bells</item>
+        <item>com_sms</item>
+        <item>funny_alarm</item>
+        <item>xperia_z_themes</item>
+    </string-array>
+
+    <string name="pref_tono_default">xperia_z_themes</string>
+
+</resources>

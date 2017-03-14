@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="Settings" >
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="pref_user"
+        android:summary="Marcar si desea editar las preferencias de Usuario"
+        android:title="Usar Preferencias de Usuario" />
+
+    <PreferenceCategory android:title="@string/Mapa" >
+        <ListPreference
+            android:defaultValue="@string/pref_mapa_default"
+            android:dependency="pref_user"
+            android:dialogTitle="Tipo"
+            android:entries="@array/pref_mapa_entradas"
+            android:entryValues="@array/pref_mapa_valores"
+            android:key="pref_tipo_mapa"
+            android:summary="Seleccione un tipo de mapa"
+            android:title="Tipo de Mapa" />
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="@string/AlarmButton" >
+        <ListPreference
+            android:defaultValue="@string/pref_alarma_default"
+            android:dependency="pref_user"
+            android:dialogTitle="Tiempo"
+            android:entries="@array/pref_alarma_entradas"
+            android:entryValues="@array/pref_alarma_valores"
+            android:key="pref_tipo_alarma"
+            android:summary="Seleccione un tiempo de adelanto de Alarma"
+            android:title="Tipo de Alarma" />
+    </PreferenceCategory>
+    
+        <PreferenceCategory android:title="Tonos" >
+        <ListPreference
+            android:defaultValue="@string/pref_tono_default"
+            android:dependency="pref_user"
+            android:dialogTitle="Tonos"
+            android:entries="@array/pref_tono_entradas"
+            android:entryValues="@array/pref_tono_valores"
+            android:key="pref_tipo_tono"
+            android:summary="Seleccione un tono para la Alarma"
+            android:title="Tipo de Tono" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
