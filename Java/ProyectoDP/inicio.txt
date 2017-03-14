@@ -1,0 +1,6 @@
+--Plantas de la estacion
+PLANTA#0#6#6#0#35#5#
+--Personajes de la simulación
+LIDER#jack#J#1#
+INTRUSO#ben#B#1#
+TRABAJADOR#michael#M#1#
