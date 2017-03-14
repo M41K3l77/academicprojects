@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Mis Tickets</string>
+    <string name="title_activity_reconocedor">Reconocedor</string>
+    <string name="title_activity_ticket">Gestion</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="new_ticket">New Ticket</string>
+    <string name="title_imagen_ticket">Imagen Ticket</string>
+    <string name="text_ticket">Ticket</string>
+    <string name="imagen_del_ticket">Imagen del Ticket</string>
+    <string name="enviar_ticket">Enviar Ticket</string>
+    <string name="anular_ticket">Anular Ticket</string>
+    <string name="procesar_imagen">Procesar Imagen</string>
+    <string name="cancelar_imagen">Cancelar Imagen</string>
+    <string name="name_articulo">nombre articulo</string>
+    <string name="cantidad_articulo">cantidad:</string>
+    <string name="cantidad_articulo_value">0</string>
+    <string name="precio_articulo">prec. unid.:</string>
+    <string name="precio_articulo_value">0.00</string>
+    <string name="valor_ticket">valor del ticket</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_username">User name</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <!-- Strings related to SignUp -->
+    <string name="action_sign_up">Sign Up</string>
+    <string name="signupbutton">Sign Up</string>
+    <string name="user_name_singup">tu nombre de usuario</string>
+    <string name="email_singup">tu@correo</string>
+    <!-- menu ticketactivity -->
+    <string name="logoutuser">logout</string>
+    <string name="title_activity_sign_up">Sign Up</string>
+    <!-- date picker-->
+    <string name="title_activity_date_picker">Fecha del ticket</string>
+    <string name="okButtonDatePicker">OK</string>
+    <string name="cancelDateOnclick">Cancel</string>
+
+    <!-- time picker-->
+    <string name="title_activity_time_picker">Hora del ticket</string>
+    <string name="okButtonTimePicker">OK</string>
+    <string name="cancelTimeOnclick">Cancel</string>
+
+</resources>

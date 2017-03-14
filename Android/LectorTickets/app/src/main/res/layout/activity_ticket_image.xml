@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TicketRecognitionActivity">
+
+    <TextView android:text="@string/title_imagen_ticket" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/title_imagen_ticket" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imagen_del_ticket"
+        android:scaleType="fitStart"
+        android:layout_below="@+id/title_imagen_ticket" />
+    <com.example.mangel.lectortickets.viewelements.SelectedView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/selectedView"
+        android:layout_below="@+id/title_imagen_ticket" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/cancelar_imagen"
+            android:id="@+id/cancelar_imagen"
+            android:layout_alignParentBottom="true"
+            android:onClick="anularImagenTicket"
+            android:textSize="16sp"
+            android:textColor="@drawable/button_text_color"
+            android:background="@drawable/button"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/procesar_imagen"
+            android:id="@+id/procesar_imagen"
+            android:onClick="procesarImagen"
+            android:textSize="16sp"
+            android:textColor="@drawable/button_text_color"
+            android:background="@drawable/button"/>
+    </LinearLayout>
+
+</RelativeLayout>

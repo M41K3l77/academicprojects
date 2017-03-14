@@ -1,0 +1,97 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".TicketRecognitionActivity">
+
+    <TextView android:text="@string/text_ticket" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/title_imagen_ticket" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:id="@+id/dateLinearLayout"
+        android:layout_below="@+id/title_imagen_ticket"
+        android:layout_alignParentEnd="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Date"
+            android:id="@+id/dateView"
+            android:layout_weight="0.5"
+            android:textSize="24sp"
+            android:onClick="changeDate"
+            android:textColor="@drawable/textdatetime"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Time"
+            android:id="@+id/timeView"
+            android:layout_weight="0.5"
+            android:textSize="24sp"
+            android:onClick="changeTime"
+            android:textColor="@drawable/textdatetime"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/valor_ticket"
+        android:id="@+id/valor_ticket"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="bold"
+        android:layout_above="@+id/linearLayout"
+        android:layout_alignEnd="@+id/linearLayout" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/linearLayout">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/anular_ticket"
+            android:id="@+id/anular_ticket"
+            android:onClick="anularTicket"
+            android:textSize="16sp"
+            android:textColor="@drawable/button_text_color"
+            android:background="@drawable/button"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/enviar_ticket"
+            android:id="@+id/enviar_ticket"
+            android:onClick="enviarTicket"
+            android:textSize="16sp"
+            android:textColor="@drawable/button_text_color"
+            android:background="@drawable/button"/>
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/articulosListView"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/valor_ticket"
+        android:layout_below="@+id/dateLinearLayout"
+        android:descendantFocusability="afterDescendants"/>
+</RelativeLayout>
