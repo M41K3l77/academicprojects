@@ -1,5 +1,5 @@
 # academicprojects
-Developed projects studying Software Degree (some of them) in the University of Extremadura.
+Developed projects (some of them) studying Software Degree in the University of Extremadura.
 
 This repository is divided in three dirs. Android, C++ and Java projects.
 
