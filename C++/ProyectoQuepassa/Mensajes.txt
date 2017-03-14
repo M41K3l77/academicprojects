@@ -1,0 +1,25 @@
+10#10#10
+Activa#10#Jeromin#Almudena#1
+Jeromin#Donde estas, Almudena?
+Activa#9#Pedro#Almudena#1
+Pedro#como estas, almudena?
+Activa#8#Almudena#Manuel#1
+Almudena#Donde estas, manuel?
+Activa#7#JuanPedro#Almudena#1
+JuanPedro#como estas, almudena?
+Activa#6#Juan#Pedro#1
+Juan#como estas, pedro?
+Activa#5#Manuel#Juan#1
+Manuel#como estas, Juan?
+Activa#4#Almudena#Manuel#2
+Almudena#Donde estas, manuel?
+Almudena#Manuel, traeme las pilas!
+Activa#2#Juan#Pedro#2
+Juan#como estas, pedro?
+Juan#Vamos al cine?
+Activa#1#Manuel#Juan#2
+Manuel#como estas, Juan?
+Juan#Vamos tirando!
+Inactiva#3#Pedro#Almudena#2
+Pedro#como estas, almudena?
+Almudena#Estoy en la plaza!

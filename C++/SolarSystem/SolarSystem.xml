@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<solarsystem>
+    <star distanceFromStar="0" orbitSpeed="0" rotationSpeed="500" radiusScale="0.015" materialProperty="SUN" figureASC="Esfera.asc">Estrella el sol</star>
+    <planet distanceFromStar="1.5" orbitSpeed="88" rotationSpeed="58.6" radiusScale="0.0015" materialProperty="MERCURY" figureASC="Esfera.asc">mercurio</planet>
+    <planet distanceFromStar="2.2" orbitSpeed="224.65" rotationSpeed="243" radiusScale="0.0024" materialProperty="VENUS" figureASC="Esfera.asc">venus</planet>
+    <planet distanceFromStar="3" orbitSpeed="365" rotationSpeed="1" radiusScale="0.0020" materialProperty="EARTH" figureASC="Esfera.asc">
+    tierra
+    	<moon distanceFromStar="0.2" orbitSpeed="1" rotationSpeed="0" radiusScale="0.0005" materialProperty="MOON" figureASC="Esfera.asc">luna</moon>
+    </planet>
+    <planet distanceFromStar="3.4" orbitSpeed="686" rotationSpeed="1.03" radiusScale="0.0015" materialProperty="MARS" figureASC="Esfera.asc">marte</planet>
+    <planet distanceFromStar="3.9" orbitSpeed="4332" rotationSpeed="0.4139" radiusScale="0.002" materialProperty="JUPITER" figureASC="Esfera.asc">jupiter</planet>
+    <planet distanceFromStar="4.2" orbitSpeed="10759" rotationSpeed="0.44375" radiusScale="0.0008" materialProperty="SATURN" figureASC="Esfera.asc">saturno</planet>
+    <planet distanceFromStar="4.5" orbitSpeed="30685" rotationSpeed="0.718056" radiusScale="0.002" materialProperty="URANUS" figureASC="Esfera.asc">urano</planet>
+    <planet distanceFromStar="5.1" orbitSpeed="60188" rotationSpeed="0.6713" radiusScale="0.002" materialProperty="NEPTUNE" figureASC="Esfera.asc">neptuno</planet>
+    <planet distanceFromStar="5.4" orbitSpeed="90616" rotationSpeed="6.39" radiusScale="0.002" materialProperty="PLUTO" figureASC="Esfera.asc">pluton</planet>
+    <camera eyeX="2.5" eyeY="2.5" eyeZ="2.5" pos0X="0" pos0Y="0" pos0Z="0" upX="-2.5" upY="2.5" upZ="-2.5"></camera>
+    <camera eyeX="-2.5f" eyeY="2.5f" eyeZ="2.5f" pos0X="0" pos0Y="0" pos0Z="0" upX="2.5" upY="2.5" upZ="-2.5"></camera>
+	<camera eyeX="-2.5f" eyeY="2.5f" eyeZ="-2.5f" pos0X="0" pos0Y="0" pos0Z="0" upX="2.5" upY="2.5" upZ="2.5"></camera>
+	<camera eyeX="2.5f" eyeY="2.5f" eyeZ="-2.5f" pos0X="0" pos0Y="0" pos0Z="0" upX="-2.5" upY="2.5" upZ="2.5"></camera>
+	<camera eyeX="2.5f" eyeY="-2.5f" eyeZ="2.5f" pos0X="0" pos0Y="0" pos0Z="0" upX="-2.5" upY="-2.5" upZ="-2.5"></camera>
+	<camera eyeX="-2.5f" eyeY="-2.5f" eyeZ="2.5f" pos0X="0" pos0Y="0" pos0Z="0" upX="2.5" upY="-2.5" upZ="-2.5"></camera>
+	<camera eyeX="-2.5f" eyeY="-2.5f" eyeZ="-2.5f" pos0X="0" pos0Y="0" pos0Z="0" upX="2.5" upY="-2.5" upZ="2.5"></camera>
+	<camera eyeX="2.5f" eyeY="-2.5f" eyeZ="-2.5f" pos0X="0" pos0Y="0" pos0Z="0" upX="-2.5" upY="-2.5" upZ="2.5"></camera>
+	<camera eyeX="0.0f" eyeY="2.5f" eyeZ="0.0f" pos0X="0" pos0Y="0" pos0Z="0" upX="0.0" upY="0.0" upZ="2.5"></camera>
+	<camera eyeX="0.0f" eyeY="-2.5f" eyeZ="0.0f" pos0X="0" pos0Y="0" pos0Z="0" upX="0.0" upY="0.0" upZ="2.5"></camera>
+</solarsystem>
