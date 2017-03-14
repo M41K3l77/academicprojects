@@ -7,7 +7,7 @@ This repository is divided in three dirs. Android, C++ and Java projects.
 
 ### LectorTickets, RCMMChatApp and ZonaAzulCC projects
 
-* LectorTickets is the movil client of my degree final project and basically obtains data of ticket images and send it to the cloud. Data thats obtain are name of supermarket, quantities, prices and names of products.
+* LectorTickets is the movil client of my degree final project and basically obtains data of ticket images and send it to the cloud. Data thats obtain are supermarket and product names, quantitiesand prices.
 * RCMMChatApp is a chat application using sockets.
 * ZonaAzulCC is an application thats tells you the blue parking areas in the city of Caceres (Spain) and how arrives there.
 
