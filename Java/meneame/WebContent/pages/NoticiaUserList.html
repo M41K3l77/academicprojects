@@ -1,0 +1,87 @@
+	<nav class="nav">		
+		<div class="menunoticia">
+			<form class="listarnoticia" data-ng-show="userloged.visible" data-ng-submit="ulc.funciones.goUsernewslist()">
+				<input class="submitbutton" type="submit" value="listar mis noticias">
+			</form>
+			<form class="listarcomentarios" data-ng-show="userloged.visible" data-ng-submit="ulc.funciones.goUsercommentslist()">
+				<input class="submitbutton" type="submit" value="listar mis comentarios">
+			</form>
+			<form class="enviarnoticia" data-ng-show="userloged.visible" data-ng-submit="ulc.funciones.goUsersendnews()">
+				<input class="submitbutton" type="submit" value="enviar noticia">
+			</form>
+			<div class="newsselected">Listado De Noticias Del Usuario</div>
+		</div>
+		<div class="navnewstype">
+		<form class="filtrarnewstype" data-ng-submit="ulc.funciones.filtrarnoticias()">
+			<select class="newstypefiltro" data-ng-model="ulc.userconf.filtro">
+				<option value="fecha">fecha</option>
+				<option value="meneos">meneos</option>
+			</select>
+			<input class="filtrarnewstypebutton" type="submit" value="filtrar">
+		</form>
+		</div>
+	</nav>
+<main class="centralsection">
+<div class="leftsection">
+<!-- 	LEFT SECTION -->
+		<div class="noticia" data-ng-repeat="notice in ulc.usernewslist">
+			<div class="noticiameneo">
+				<div class="meneonumeromeneos">{{notice.listitem.hits}} meneos</div>
+				<form class="meneomenear" data-ng-submit="ulc.funciones.menearnoticia(notice.listitem)">
+					<input class="submitbutton" type="submit" value="menear">
+				</form>
+			</div>
+			<div class="noticiainfo">
+				<a class="noticiatitle" href="{{notice.listitem.url}}">{{notice.listitem.title}}</a>
+				<div class="noticiauser">Usuario {{notice.usernews}}</div>
+				<div class="noticiatext">{{notice.listitem.text}}</div>
+				<div class="noticiadetails">
+					<a class="noticiadetailsnumerocomentario"
+						data-ng-href="#/noticia/{{notice.listitem.id}}">comentarios:
+						{{notice.commentscount}}</a>
+					<div class="noticiadetailskarma">karma: {{notice.listitem.likes}}</div>
+ 					<div class="noticiafecha">date: {{notice.listitem.dateStamp}}
+ 						{{notice.listitem.timeStamp}}</div>
+				</div>
+				<div class="noticiaedition" data-ng-show="userloged.visible">
+					<form class="edit" data-ng-submit="ulc.funciones.editarNoticia(notice.listitem.id)">
+						<input class="editbutton" type="submit" value="editar noticia">
+					</form>
+					<form class="erase" data-ng-submit="ulc.funciones.borrarNoticia(notice.listitem)">
+						<input class="erasebutton" type="submit" value="borrar noticia">
+					</form>
+				</div>
+			</div>
+		</div>
+	<div class="pagination">
+		<form class="firstform" data-ng-submit="ulc.funciones.seleccionarPagina(0)">
+			<input class="first" type="submit" value="primera">
+		</form>
+		<form class="prevform" data-ng-submit="ulc.funciones.seleccionarPagina(ulc.userconf.actualpage-1)">
+			<input class="prev" type="submit" value="anterior">
+		</form>
+		<div class="actual">{{ulc.userconf.actualpage+1}}</div>
+		<form class="nextform" data-ng-submit="ulc.funciones.seleccionarPagina(ulc.userconf.actualpage+1)">
+			<input class="next" type="submit" value="siguiente">
+		</form>
+	</div>
+</div>
+<aside class="aside">
+<!-- 	ASIDE -->
+	<div class="noticiasmasvotadas">
+		MÁS MENEADAS		
+			<div class="noticiamini" data-ng-repeat="noticehitted in ulc.newsmosthitted">
+				<div class="noticiamininummeneos">{{noticehitted.hits}}</div>
+				<a class="noticiaminititulo" data-ng-href="#/noticia/{{noticehitted.id}}">{{noticehitted.title}}</a>
+			</div>
+		
+	</div>
+	<div class="noticiasmasvaloradas">
+		MÁS POPULARES		
+			<div class="noticiamini" data-ng-repeat="noticeliked in ulc.newsmostliked">
+				<div class="noticiamininummeneos">{{noticeliked.likes}}</div>
+				<a class="noticiaminititulo" data-ng-href="#/noticia/{{noticeliked.id}}">{{noticeliked.title}}</a>
+			</div>		
+	</div>
+</aside>
+</main>

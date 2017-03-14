@@ -1,0 +1,42 @@
+/*{border: 1px dashed black;}*/
+html{
+	display: flex;
+	justify-content: flex-start;
+	align-items: stretch;
+	margin: 0;
+    padding: 0;
+    height: 100%;
+	width: 100%;
+	background-color: black;
+}
+.error{
+	position: relative;
+	margin: 0;
+    padding: 0;
+	width: 100%;
+}
+
+.text,.text505{
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: white;
+	font-size: 24px;
+}
+.text403{
+	position: fixed;
+	top: 0;
+	left: 0;
+	font-size: 24px;
+}
+.text505{
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: #ffcc33;
+	font-size: 24px;
+}
+img{
+	height: 100%;
+	width: 100%;
+}

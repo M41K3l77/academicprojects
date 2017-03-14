@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es" data-ng-app="meneameApp">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+<title>Meneame</title>
+
+<script src="../js/angular/angular.js"></script>
+<script src="../js/angular/angular-route.js"></script>
+<script src="../js/angular/angular-css.min.js"></script>
+<script src="../js/angular/angular-resource.js"></script>
+<script src="../js/app.js"></script>
+<script src="../js/services.js"></script>
+<!-- <script src="js/filters.js"></script> -->
+<script src="../js/controllers.js"></script>
+</head>
+<body class="body">
+	<header class="header" data-ng-controller="headerCtrl as headc"> 
+		<div class="info"> 
+			<a class="infohome"
+				data-ng-href="#/home">MENEAME</a>
+		</div>
+				<form class="login" data-ng-submit="headc.funciones.goLogin()" data-ng-show="!userloged.visible">
+					<input class="loginsubmit" type="submit" value="login">
+				</form>
+				<form class="register" data-ng-submit="headc.funciones.goRegister()" data-ng-show="!userloged.visible">
+					<input class="registersubmit" type="submit" value="register">
+				</form>
+				<form class="logout" data-ng-submit="headc.funciones.logout()" data-ng-show="userloged.visible">
+					<input class="logoutsubmit" type="submit" value="logout">
+				</form>
+				<div class="userloged" data-ng-show="userloged.visible">{{userloged.name}}</div>
+				<form class="myprofile" data-ng-show="userloged.visible" data-ng-submit="headc.funciones.goProfile()">
+        			<input class="myprofilesubmit" type="submit" value="ver perfil">
+        		</form>
+	</header>
+	
+	<div class="datangview" data-ng-view></div>
+	<footer class="footer">
+		<div class="infofooter">
+			<div class="footerelement">
+				Aplicación web basada en <a class="footeritem"
+					href="https://www.meneame.net/">MENEAME</a>
+			</div>
+			<div class="footerelement">
+				A Complete Guide to <a class="footeritem"
+					href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">Flexbox</a>
+			</div>
+		</div>
+		<div class="linksfooter">
+			<div class="footerelement">
+				<a class="footeritem" href="http://www.unex.es/">UNEX</a>
+			</div>
+			<div class="footerelement">
+				<a class="footeritem" href="http://www.w3schools.com/">w3schools</a>
+			</div>
+			<div class="footerelement">
+				<a class="footeritem" href="https://jigsaw.w3.org/css-validator/">W3
+					css validator</a>
+			</div>
+			<div class="footerelement">
+				<a class="footeritem" href="https://validator.w3.org/nu/">W3
+					Html5 validator</a>
+			</div>
+		</div>
+		<div class="w3validated">
+			&nbsp;&nbsp;
+			<p>
+				<img style="border:0;width:88px;height:31px" src="https://localhost:8443/meneame/images/vcss-blue.gif" alt="¡CSS Válido!"/>
+			</p>
+		</div>
+	</footer>
+</body>
+</html>

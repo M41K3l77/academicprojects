@@ -1,0 +1,29 @@
+<main class="centralsectionloginregister">
+		<!-- LEFT SECTION -->
+		<div class="registersection">
+			<div class="boxname">
+				Register
+			</div>
+			<form class="registeruser" data-ng-submit="rc.funciones.registerUser()">
+				<span class="error">{{errorformatonombre}}</span>
+				<label class="username">
+					user name<input type="text" data-ng-model="user.name" placeholder="your username" maxlength="40" required>
+				</label>
+				<span class="error">{{errorformatoemail}}</span>
+				<label class="email">
+					email<input type="email" data-ng-model="user.email" placeholder="your@email" maxlength="50" required>
+				</label>
+				<label class="password">
+					password<input type="password" data-ng-model="user.password1" placeholder="***************" maxlength="40" required>
+				</label>
+				<label class="password">
+					password<input type="password" data-ng-model="user.password2" placeholder="***************" maxlength="40" required>
+				</label>
+				<span class="error">{{errorpassword}}</span>
+				<span class="error">{{errorformatopassword}}</span>
+				<div class="submit">
+					<input class="submitbutton" type="submit" value="register user">
+				</div>
+			</form>
+		</div>
+	</main>

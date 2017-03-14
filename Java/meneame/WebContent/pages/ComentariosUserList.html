@@ -1,0 +1,78 @@
+<nav class="nav">
+		<div class="menunoticia">
+			<form class="listarnoticia" data-ng-show="userloged.visible" data-ng-submit="ucc.funciones.goUsernewslist()">
+				<input class="submitbutton" type="submit" value="listar mis noticias">
+			</form>
+			<div class="commentselected">MI LISTA DE COMENTARIOS</div>
+		</div>
+	</nav>
+	<main class="centralsection">
+	<div class="leftsection">
+		<!-- LEFT SECTION -->
+			<div class="noticia" data-ng-repeat="comment in ucc.usercommentslist">
+				<div class="commentnoticiainfo">
+					<a class="noticiatitle" data-ng-href="{{comment.notice.noticeObj.url}}">{{comment.notice.noticeObj.title}}</a>
+					<div class="noticiauser">{{comment.notice.usernews}}</div>
+					<div class="noticiatext">{{comment.notice.noticeObj.text}}</div>
+					<div class="noticiadetails">
+						<a class="noticiadetailsnumerocomentario"
+							data-ng-href="#/noticia/{{comment.notice.noticeObj.id}}">comentarios: {{comment.notice.commentscount}}</a>
+						<div class="noticiadetailskarma">karma: {{comment.notice.noticeObj.likes}}</div>
+						<div class="noticiafecha">date:
+							{{comment.notice.noticeObj.dateStamp}}
+							{{comment.notice.noticeObj.timeStamp}}</div>
+					</div>
+					<div class="comentario">
+						<div class="comentarioinfo">
+<!-- 							<div class="comentarionumber">#${commetNewsPosition[status.index]}</div> -->
+							<div class="comentariotext">{{comment.comment.commentObj.text}}</div>
+						</div>
+						<div class="comentariodetails">
+							<div class="comentariokarma">karma: {{comment.comment.commentObj.likes}}</div>
+							<div class="comentariofecha">date: {{comment.comment.commentObj.dateStamp}}
+								{{comment.comment.commentObj.timeStamp}}</div>
+							<div class="comentariouser">{{comment.comment.usercomment}}</div>
+						</div>
+						<div class="commentedition">
+							<form class="edit" data-ng-submit="ucc.funciones.editarComentario(comment.comment.commentObj.id)">
+								<input class="editbutton" type="submit" value="editar comentario">
+							</form>
+							<form class="erase" data-ng-submit="ucc.funciones.borrarComentario(comment.comment.commentObj)">
+								<input class="erasebutton" type="submit" value="borrar comentario">
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		<div class="pagination">
+		<form class="firstform" data-ng-submit="ucc.funciones.seleccionarPagina(0)">
+			<input class="first" type="submit" value="primera">
+		</form>
+		<form class="prevform" data-ng-submit="ucc.funciones.seleccionarPagina(ucc.userconf.actualpage-1)">
+			<input class="prev" type="submit" value="anterior">
+		</form>
+		<div class="actual">{{ucc.userconf.actualpage+1}}</div>
+		<form class="nextform" data-ng-submit="ucc.funciones.seleccionarPagina(ucc.userconf.actualpage+1)">
+			<input class="next" type="submit" value="siguiente">
+		</form>
+	</div>
+	</div>
+	<aside class="aside">
+<!-- 	ASIDE -->
+	<div class="noticiasmasvotadas">
+		MÁS MENEADAS		
+			<div class="noticiamini" data-ng-repeat="noticehitted in ucc.newsmosthitted">
+				<div class="noticiamininummeneos">{{noticehitted.hits}}</div>
+				<a class="noticiaminititulo" data-ng-href="#/noticia/{{noticehitted.id}}">{{noticehitted.title}}</a>
+			</div>
+		
+	</div>
+	<div class="noticiasmasvaloradas">
+		MÁS POPULARES		
+			<div class="noticiamini" data-ng-repeat="noticeliked in ucc.newsmostliked">
+				<div class="noticiamininummeneos">{{noticeliked.likes}}</div>
+				<a class="noticiaminititulo" data-ng-href="#/noticia/{{noticeliked.id}}">{{noticeliked.title}}</a>
+			</div>		
+	</div>
+</aside>
+	</main>

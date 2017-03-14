@@ -1,0 +1,22 @@
+<nav class="nav">
+		<div class="menunoticia">
+			<form class="listarnoticia" data-ng-show="userloged.visible" data-ng-submit="uscc.funciones.goUsernewslist()"><input class="submitbutton" type="submit" value="listar mis noticias"></form>
+			<form class="enviarnoticia" data-ng-show="userloged.visible" data-ng-submit="uscc.funciones.goUsersendnews()"><input class="submitbutton" type="submit" value="enviar noticia"></form>
+		</div>
+	</nav>
+	<main class="centralsectionenviarcomentario">
+		<!-- LEFT SECTION -->
+		<div class="enviarcomentariosection">
+			<div class="boxname">
+				Enviar comentario
+			</div>
+			<form class="enviarcomentario" data-ng-submit="uscc.funciones.sendComment()">
+				Comentario
+				<textarea class="comentariouser" rows="8" cols="50" maxlength="400" data-ng-model="comment.text" placeholder="inserta tu comentario" required></textarea>
+				<span class="error">{{errordescripcion}}</span>
+				<div class="submit">
+					<input class="submitbutton" type="submit" value="enviar comentario">
+				</div>
+			</form>
+		</div>
+	</main>

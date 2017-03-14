@@ -1,0 +1,43 @@
+
+<nav class="nav">
+		<div class="menunoticia">
+			<form class="listarnoticia" data-ng-show="userloged.visible" data-ng-submit="enc.funciones.goUsernewslist()">
+				<input class="submitbutton" type="submit" value="listar mis noticias">
+			</form>
+		</div>
+	</nav>
+	<main class="centralsectionenviarhistoria"> <!-- LEFT SECTION data-ng-model="user.name"-->
+	<div class="editarhistoriasection">
+		<div class="boxname">EDITAR NOTICIA</div>
+		<form class="noticiaeditarhistoria" data-ng-show="userloged.visible" data-ng-submit="enc.funciones.editnews()">
+			<span class="error">{{errorurl}}</span>
+			<div class="urlnoticia"> Url de la noticia
+				<input type="url" data-ng-model="enc.news.url" required>
+			</div>			
+			<span class="error">{{errortitulo}}</span>
+			<div class="titulonoticia">
+				Título de la noticia
+				<input type="text" data-ng-model="enc.news.title" maxlength="150" placeholder="my titulo de la noticia" required>
+			</div>
+			<span class="error">{{errordescripcion}}</span>
+			<div class="descripcionnoticia">
+				Descripción de la noticia
+				<textarea class="descripcionnoticiauser" maxlength="400" data-ng-model="enc.news.text" placeholder="inserta tu descripcion" required></textarea>
+			</div>
+			<div class="categorianoticia">
+				Categoría de la noticia
+				<div class="categorybox">
+ 					<input type="radio" data-ng-model="enc.news.category" value="actualidad"> Actualidad
+ 					<input type="radio" data-ng-model="enc.news.category" value="ocio"> Ocio
+ 					<input type="radio" data-ng-model="enc.news.category" value="cultura"> Cultura
+ 					<input type="radio" data-ng-model="enc.news.category" value="deporte"> Deporte
+ 					<input type="radio" data-ng-model="enc.news.category" value="tecnologia"> Tecnología
+				</div>
+			</div>
+			<span class="error">{{errorcategory}}</span>
+			<div class="submit">
+				<input class="submitbutton" type="submit" value="Editar historia">
+			</div>
+		</form>
+	</div>
+	</main>

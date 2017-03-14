@@ -1,0 +1,23 @@
+
+	<main class="centralsectionloginregister">
+		<!-- LEFT SECTION -->
+		<div class="loginsection">
+			<div class="boxname">
+				Login
+			</div>
+			<form class="loginuser" data-ng-submit="lc.funciones.loginUser()">
+				<span class="error">{{errorformatonombre}}</span>
+				<span class="error">{{erroruser}}</span>
+				<label class="username">
+					user name<input type="text" data-ng-model="user.name" placeholder="your username" maxlength="40" required>
+				</label>
+				<label class="password">
+					password<input type="password" data-ng-model="user.password" placeholder="***************" maxlength="40" required>
+				</label>
+				<span class="error">{{errorformatopassword}}</span>
+				<div class="submit">
+					<input class="submitbutton" type="submit" value="login">
+				</div>
+			</form>
+		</div>
+	</main>

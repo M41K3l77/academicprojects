@@ -1,0 +1,22 @@
+<main class="centralsectionloginregister"> <!-- LEFT SECTION -->
+<div class="profilesection">
+	<div class="boxname">Perfil Usuario</div>
+	<div class="profileuser">
+		<form class="deleteuser" data-ng-submit="upc.funciones.darBajaUserProfile()">
+			<input class="submitbutton" type="submit" value="darse de baja">
+		</form>
+		<label class="usernameprofile"> user name: {{userloged.name}} </label>
+		<label class="emailprofile"> email: {{upc.owneremail}} </label>
+		<span class="error">{{errorformatoemail}}</span>
+		<label class="emailprofile"> nuevo email: <input type="email" data-ng-model="user.email" maxlength="50" required></label>
+		<label class="passwordprofile"> password: {{upc.ownerpassword}} </label>
+		<label class="passwordprofile"> nuevo password: <input type="password" data-ng-model="user.password1" maxlength="40" required> </label>
+		<label class="passwordprofile"> repetir password: <input type="password" data-ng-model="user.password2" maxlength="40" required> </label>
+		<span class="error">{{errorpassword}}</span>
+		<span class="error">{{errorformatopassword}}</span>
+		<form class="updateuser" data-ng-submit="upc.funciones.updateUserProfile()">
+			<input class="submitbutton" type="submit" value="editar user">
+		</form>
+	</div>
+</div>
+</main>

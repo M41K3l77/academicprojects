@@ -1,0 +1,24 @@
+<nav class="nav">
+	<div class="menunoticia">
+		<form class="listarnoticia" data-ng-show="userloged.visible" data-ng-submit="ecc.funciones.goUsernewslist()">
+				<input class="submitbutton" type="submit" value="listar mis noticias">
+			</form>
+			<form class="enviarnoticia" data-ng-show="userloged.visible" data-ng-submit="ecc.funciones.goUsersendnews()">
+				<input class="submitbutton" type="submit" value="enviar noticia">
+			</form>
+	</div>
+</nav>
+<main class="centralsectionenviarcomentario"> 
+<!-- LEFT SECTION -->
+<div class="enviarcomentariosection">
+	<div class="boxname">Editar Comentario</div>
+	<form class="enviarcomentario" data-ng-submit="ecc.funciones.updateComentario()">
+		Comentario
+		<textarea class="comentariouser" rows="8" cols="50" maxlength="400" data-ng-model="ecc.comment.text" required>{{ecc.comment.text}}</textarea>
+		<span class="error">{{errordescripcion}}</span>
+		<div class="submit">
+			<input class="submitbutton" type="submit" value="editar comentario">
+		</div>
+	</form>
+</div>
+</main>
