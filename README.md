@@ -25,4 +25,4 @@ This repository is divided in three dirs. Android, C++ and Java projects.
 ### ProyectoDP and meneame projects
 
 * ProyectoDP is a labyrinth application to learn OOP.
-* meneame is a news agregator J2EE application.
+* meneame is a news agregator J2EE application based on https://www.meneame.net/.
