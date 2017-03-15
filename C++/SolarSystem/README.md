@@ -10,26 +10,26 @@ Miguel Ángel Holgado Ceballos
 
 ### Menú
 * appearance
-** GL_FLAT constante
-** GL_SMOOTH suave
+	* GL_FLAT constante
+	* GL_SMOOTH suave
 * Tipo de visor
-** Alambre
-** Solido
-** Iluminación
+	* Alambre
+	* Solido
+	* Iluminación
 * Color de fondo
-** Negro
-** Verde
-** Azul
-** Rojo
-** Amarillo
-** Blanco
+	* Negro
+	* Verde
+	* Azul
+	* Rojo
+	* Amarillo
+	* Blanco
 * Color de dibujo
-** Negro
-** Verde
-** Azul
-** Rojo
-** Amarillo
-** Blanco
+	* Negro
+	* Verde
+	* Azul
+	* Rojo
+	* Amarillo
+	* Blanco
 
 ### Keyboard
 
