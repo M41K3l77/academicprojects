@@ -39,8 +39,14 @@ Keys from "1" to "0", ten different cameras.
 Keys "+" zoom in, "-" zoom out.
 * Time
 Keys "*" forward speed, "/" backward speed.
-* Ejes
+* Axis
 Keys "e" show/hide figure axis.
+* Focus
+Keys from f1 to f7. Different focus lights in different positions.
+
+### xml file
+
+* xml file where configure the planetarium
 
 ## Notice
 
@@ -52,7 +58,7 @@ Keys "e" show/hide figure axis.
 ## Built With
 
 * [Eclipse](http://www.eclipse.org/downloads/packages/) - The app framework used
-* OpenGl - Text recognition engine for images
+* OpenGl
 
 ## Application working
 
