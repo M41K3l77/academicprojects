@@ -59,7 +59,7 @@ This is the prequel of Planetario_Aumentado.
 ## Built With
 
 * [Eclipse](http://www.eclipse.org/downloads/packages/) - The app framework used
-* [tinyxml2] (http://www.grinninglizard.com/tinyxml2/) - xml Parser
+* [tinyxml2](http://www.grinninglizard.com/tinyxml2/) - xml Parser
 
 ## Application working
 
