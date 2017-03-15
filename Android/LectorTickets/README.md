@@ -31,3 +31,29 @@ A compiled version of tess-two, in this case https://github.com/rmtheis/tess-two
 * [AndroidStudio](https://developer.android.com/studio/index.html) - The client framework used
 * [tess-two](https://github.com/rmtheis/tess-two) - Text recognition engine for images
 * [Retrofit](http://square.github.io/retrofit/) - A type-safe HTTP client for Android and Java (use in the Rest service)
+
+## Application working
+
+### SignUp an SignIn
+
+<img src="https://cloud.githubusercontent.com/assets/13255003/23949839/2675c802-0989-11e7-98a4-7a6500659703.png" width="23%"></img>
+<img src="https://cloud.githubusercontent.com/assets/13255003/23949933/8ad5b10e-0989-11e7-9aa3-362f2620535d.png" width="23%"></img>
+<img src="https://cloud.githubusercontent.com/assets/13255003/23950319/e48315b0-098a-11e7-90a0-c34675f45042.png" width="23%"></img>
+<img src="https://cloud.githubusercontent.com/assets/13255003/23950318/e48159aa-098a-11e7-897c-1ccd7abac1ca.png" width="23%"></img>
+
+### Taking photo and recognition
+
+<img src="https://cloud.githubusercontent.com/assets/13255003/23950316/e47b44fc-098a-11e7-822c-a3ca99686ceb.png" width="23%"></img>
+<img src="https://cloud.githubusercontent.com/assets/13255003/23950314/e472b904-098a-11e7-94bc-7d65b0433fba.png" width="23%"></img>
+<img src="https://cloud.githubusercontent.com/assets/13255003/23950315/e479f3a4-098a-11e7-8435-f46af1388a65.png" width="23%"></img>
+<img src="https://cloud.githubusercontent.com/assets/13255003/23950317/e47e80b8-098a-11e7-849d-72eee8eece92.png" width="23%"></img>
+
+### Modifie and send data
+
+<img src="https://cloud.githubusercontent.com/assets/13255003/23950320/e4a45eaa-098a-11e7-839a-e42e765b3ba8.png" width="23%"></img>
+<img src="https://cloud.githubusercontent.com/assets/13255003/23950321/e4abc51e-098a-11e7-81c8-d5888b894828.png" width="23%"></img>
+<img src="https://cloud.githubusercontent.com/assets/13255003/23950322/e4ac8bfc-098a-11e7-9da0-f1ef2ed08faf.png" width="23%"></img>
+<img src="https://cloud.githubusercontent.com/assets/13255003/23950323/e4b16d02-098a-11e7-8b6a-38708405fb6f.png" width="23%"></img>
+<img src="https://cloud.githubusercontent.com/assets/13255003/23950324/e4b65312-098a-11e7-94ca-caa7a71784c3.png" width="23%"></img>
+<img src="https://cloud.githubusercontent.com/assets/13255003/23950328/e4dc69c6-098a-11e7-8375-e1e5abc05e0b.png" width="23%"></img>
+<img src="https://cloud.githubusercontent.com/assets/13255003/23950325/e4b6a3b2-098a-11e7-8165-d56f257f3680.png" width="23%"></img> 
