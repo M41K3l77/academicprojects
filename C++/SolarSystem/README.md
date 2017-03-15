@@ -9,38 +9,38 @@ Miguel Ángel Holgado Ceballos
 ## Functionalities
 
 ### Menú
-* appearance
-	* GL_FLAT constante
-	* GL_SMOOTH suave
-* Tipo de visor
-	* Alambre
-	* Solido
-	* Iluminación
-* Color de fondo
-	* Negro
-	* Verde
-	* Azul
-	* Rojo
-	* Amarillo
-	* Blanco
-* Color de dibujo
-	* Negro
-	* Verde
-	* Azul
-	* Rojo
-	* Amarillo
-	* Blanco
+* Appearance
+	* GL_FLAT const
+	* GL_SMOOTH soft
+* Visor type
+	* Wire
+	* Solid
+	* Iluminated
+* Background colors
+	* Black
+	* Green
+	* Blue
+	* Red
+	* Yellow
+	* White
+* Figure colors
+	* Black
+	* Green
+	* Blue
+	* Red
+	* Yellow
+	* White
 
 ### Keyboard
 
-* Seleccionar cámara
-Teclas del "1" al "0", habrá diez posiciones diferentes para la cámara.
+* Camera selection
+Keys from "1" to "0", ten different cameras.
 * Zoom
-Tecla "+" para aumentar zoom, "-" para disminuir zoom.
-* Tiempo
-Tecla "*" para aumentar la velocidad del tiempo, "/" para disminuirla.
+Keys "+" zoom in, "-" zoom out.
+* Time
+Keys "*" forward speed, "/" backward speed.
 * Ejes
-Tecla "e" muestra u oculta ejes de las figuras y ejes absolutos.
+Keys "e" show/hide figure axis.
 
 ## Notice
 
