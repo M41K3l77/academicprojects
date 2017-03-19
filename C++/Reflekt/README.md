@@ -18,6 +18,8 @@ right arrow
 up arrow
 * move down
 down arrow
+* confirm move
+Enter key
 * Scape
 Esc key
 
