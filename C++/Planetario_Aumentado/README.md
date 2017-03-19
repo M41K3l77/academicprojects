@@ -31,7 +31,7 @@ Keys "n" o "N", "v" o "V", "a" o "A", "r" o "R", "y" o "Y", "b" o "B" figure col
 
 ## Notice
 
-This is the sequel of Planetario_Aumentado. ARToolKit takes the lead of the camera.
+This is the sequel of SolarSystem. ARToolKit takes the lead of the camera.
 
 ## Prerequisites
 
