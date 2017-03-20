@@ -6,6 +6,10 @@ C++ game based in the puzzle game By GlacialBits.
 
 Miguel Ángel Holgado Ceballos
 
+## Course
+
+First course first semester
+
 ## Functionalities
 
 ### Config file
