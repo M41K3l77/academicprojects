@@ -6,6 +6,10 @@ Java J2EE web application. meneame is a news agregator J2EE application based on
 
 Miguel Ángel Holgado Ceballos
 
+## Course
+
+Third course second semester.
+
 ## Functionalities
 
 * Login
