@@ -6,6 +6,10 @@ Android client application. application that shows you where is located the blue
 
 Miguel Ángel Holgado Ceballos and Juan Carlos Bonilla Bermejo
 
+## Course
+
+First course first semester.
+
 ## Functionalities
 
 * Geolocation for the user and area parking
