@@ -1,4 +1,4 @@
-# SolarSystem
+# Planetario_Aumentado
 
 C++ ARToolkit (OpenGL) application. The application shows a planetarium and the user can interact with the keyboard. Showing marks to the camera you can see the planetarium and turn off the sun ;).
 
@@ -8,7 +8,7 @@ Miguel Ángel Holgado Ceballos
 
 ## Course
 
-Forth course first semester.
+Fourth course first semester.
 
 ## Functionalities
 
