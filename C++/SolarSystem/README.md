@@ -6,6 +6,10 @@ C++ OpenGL application. The application shows a planetarium and the user can int
 
 Miguel Ángel Holgado Ceballos
 
+## Course
+
+Fourth course first semester.
+
 ## Functionalities
 
 ### Menú
