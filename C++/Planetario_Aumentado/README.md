@@ -6,6 +6,10 @@ C++ ARToolkit (OpenGL) application. The application shows a planetarium and the 
 
 Miguel Ángel Holgado Ceballos
 
+## Course
+
+Forth course first semester.
+
 ## Functionalities
 
 ### KeyBoard
