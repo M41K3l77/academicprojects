@@ -1,10 +1,14 @@
-# LectorTickets
+# RCMMChatApp
 
 Android chat application. Local net (Wifi) unicast/multicast and internet unicast. Unicast two devices and multicast two or more devices.
 
 ## Authors
 
 Miguel Ángel Holgado Ceballos and Luis Fernando Melón Pérez
+
+## Course
+
+Fourth course first semester.
 
 ## Functionalities
 
