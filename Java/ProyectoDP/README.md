@@ -6,6 +6,10 @@ Java application. It is a labyrinth simulator with a floor with workers and intr
 
 Miguel Ángel Holgado Ceballos and Carlos Miguel Bueno Lujan
 
+## Course
+
+Second course first semester.
+
 ## Functionalities
 
 * inicio.txt is the configuration file for the simulation.
