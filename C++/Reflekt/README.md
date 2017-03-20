@@ -8,7 +8,13 @@ Miguel Ángel Holgado Ceballos
 
 ## Functionalities
 
+### Config file
+
+File to configure the game such as number of chips, time an chip matrix.
+
 ### Keyboard
+
+Move the red square to the selected chip, click enter and then move to the adjacent chip and click enter.
 
 * move left
 left arrow
@@ -29,12 +35,12 @@ Just play.
 
 ## Prerequisites
 
-* OpenGL
+* Allegro lib
 
 ## Built With
 
 * [Eclipse](http://www.eclipse.org/downloads/packages/) - The app framework used
-* [allegro](http://liballeg.org/) - A cross-platform library mainly aimed at video game and multimedia programming
+* [Allegro](http://liballeg.org/) - A cross-platform library mainly aimed at video game and multimedia programming
 
 ## Application working
 
