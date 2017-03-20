@@ -1,4 +1,4 @@
-# LectorTickets
+# meneame
 
 Java J2EE web application. meneame is a news agregator J2EE application based on https://www.meneame.net/.
 
